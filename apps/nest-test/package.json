@@ -1,5 +1,5 @@
 {
-  "name": "@test-book/nest-test",
+  "name": "nest-test",
   "version": "0.0.1",
   "private": true,
   "nx": {
@@ -63,15 +63,15 @@
           "build"
         ],
         "options": {
-          "buildTarget": "@test-book/nest-test:build",
+          "buildTarget": "nest-test:build",
           "runBuildTargetDependencies": false
         },
         "configurations": {
           "development": {
-            "buildTarget": "@test-book/nest-test:build:development"
+            "buildTarget": "nest-test:build:development"
           },
           "production": {
-            "buildTarget": "@test-book/nest-test:build:production"
+            "buildTarget": "nest-test:build:production"
           }
         }
       },

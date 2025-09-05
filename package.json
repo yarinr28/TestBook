@@ -1,5 +1,5 @@
 {
-  "name": "@test-book/source",
+  "name": "source",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
@@ -29,7 +29,7 @@
     "@nx/nest": "21.4.1",
     "@nx/node": "21.4.1",
     "@nx/react": "^21.4.1",
-    "@nx/vite": "21.4.1",
+    "@nx/vite": "^21.4.1",
     "@nx/web": "21.4.1",
     "@nx/webpack": "21.4.1",
     "@nx/workspace": "21.4.1",
@@ -77,5 +77,5 @@
   },
   "workspaces": [
     "apps/*"
-    ]
+  ]
 }

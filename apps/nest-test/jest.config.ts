@@ -10,7 +10,7 @@ const swcJestConfig = JSON.parse(
 swcJestConfig.swcrc = false;
 
 export default {
-  displayName: '@test-book/nest-test',
+  displayName: 'nest-test',
   preset: '../../jest.preset.js',
   testEnvironment: 'node',
   transform: {

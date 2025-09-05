@@ -4,12 +4,12 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug @test-book/nest-test with Nx",
+      "name": "Debug nest-test with Nx",
       "runtimeExecutable": "npx",
       "runtimeArgs": [
         "nx",
         "serve",
-        "@test-book/nest-test"
+        "nest-test"
       ],
       "env": {
         "NODE_OPTIONS": "--inspect=9229"

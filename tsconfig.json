@@ -9,5 +9,11 @@
     {
       "path": "./apps/nest-test"
     },
+    {
+      "path": "./apps/moni-test-e2e"
+    },
+    {
+      "path": "./apps/moni-test"
+    }
   ]
 }

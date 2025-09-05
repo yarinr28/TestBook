@@ -1,10 +1,10 @@
 {
-  "name": "@test-book/nest-test-e2e",
+  "name": "nest-test-e2e",
   "version": "0.0.1",
   "private": true,
   "nx": {
     "implicitDependencies": [
-      "@test-book/nest-test"
+      "nest-test"
     ],
     "targets": {
       "e2e": {
@@ -17,8 +17,8 @@
           "passWithNoTests": true
         },
         "dependsOn": [
-          "@test-book/nest-test:build",
-          "@test-book/nest-test:serve"
+          "nest-test:build",
+          "nest-test:serve"
         ]
       }
     }
