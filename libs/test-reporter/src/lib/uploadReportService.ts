@@ -8,7 +8,7 @@ export interface UploadOptions {
   teamName: string;
   reportPath: string;
   graphqlEndpoint: string;
-  screenshotsDir?: string; // optional
+  screenshotsDir?: string;
 }
 
 export async function uploadReport(options: UploadOptions): Promise<string> {
