@@ -1,1 +1,3 @@
-export * from './lib/test-reporter.module';
+export { uploadReport } from "./lib/uploadReportService";
+export type { UploadOptions } from "./lib/uploadReportService";
+

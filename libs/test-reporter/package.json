@@ -12,5 +12,8 @@
     },
     "./package.json": "./package.json"
   },
-  "dependencies": {}
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "node-fetch": "^3.3.2"
+  }
 }
