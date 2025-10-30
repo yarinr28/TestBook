@@ -32,7 +32,8 @@
           "buildDepsName": "build-deps",
           "watchDepsName": "watch-deps"
         }
-      }
+      },
+      "exclude": ["libs/*", "libs/test-reporter/*"]
     },
     {
       "plugin": "@nx/webpack/plugin",
@@ -97,6 +98,15 @@
         "openTargetName": "open-cypress",
         "componentTestingTargetName": "component-test",
         "ciTargetName": "e2e-ci"
+      }
+    },
+    {
+      "plugin": "@nx/js/typescript",
+      "include": ["libs/*", "libs/test-reporter/*"],
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        }
       }
     }
   ],

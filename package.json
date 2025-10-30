@@ -20,6 +20,7 @@
     "@eslint/js": "^9.8.0",
     "@nestjs/schematics": "^11.0.0",
     "@nestjs/testing": "^11.0.0",
+    "@nrwl/nest": "^19.8.4",
     "@nx/cypress": "21.4.1",
     "@nx/docker": "21.4.1",
     "@nx/eslint": "21.4.1",
@@ -76,6 +77,8 @@
     "webpack-cli": "^5.1.4"
   },
   "workspaces": [
-    "apps/*"
+    "apps/*",
+    "libs",
+    "libs/*"
   ]
 }
